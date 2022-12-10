@@ -1,0 +1,91 @@
+html {
+    background-image: url("gympic3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+h1 {
+    color: white;
+    margin-left: 28%;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+    margin-left: 10%;
+}
+
+
+form {
+    display: block;
+    position: relative;
+    width: 300px;
+    background: black;
+    color: white;
+    padding: 15px 40px 40px; 
+    border-radius: 5px;
+
+}
+
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+
+button[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    box-shadow: 0 3px 0 #0165b6;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.center {
+    margin: auto;
+    width: 25%;
+    
+}
+
+#fnError {
+    display: block;
+    color: red;
+}
+
+#lnError {
+    display: block;
+    color: red;
+}
+
+#emailError {
+   display: block; 
+   color: red;
+}
+
+#pswdError {
+    display: block; 
+    color: red;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+ }
